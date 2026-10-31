@@ -1,0 +1,2074 @@
+{
+  "schemaVersion": 1,
+  "minAppVersion": 1,
+  "version": "2026.10.31.1",
+  "gameVersion": "2026-10-29-机制基础版（强度待实战复核）",
+  "source": "英雄标识/名称/推荐分路来自腾讯官网公开英雄列表；战术标签为本项目独立机制标注，非胜率统计。",
+  "generatedAt": "2026-10-31",
+  "quality": "mechanics-baseline-not-ranked-validated",
+  "limitations": [
+    "tier全部为0.5中性值，不表示版本强度排名",
+    "未包含胜率、禁用率或对位胜率",
+    "机制关系仅覆盖部分英雄，0.55为人工规则权重而非概率",
+    "需要两台客户真机及实战BP复核"
+  ],
+  "sources": [
+    {
+      "url": "https://pvp.qq.com/web201605/js/herolist.json",
+      "retrievedAt": "2026-10-31",
+      "fields": [
+        "ename",
+        "cname",
+        "roles",
+        "hero_type",
+        "hero_type2"
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "id": "105",
+      "name": "廉颇",
+      "lanes": [
+        "CLASH",
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "106",
+      "name": "小乔",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "burst",
+        "control",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "107",
+      "name": "赵云",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "control",
+        "mobility",
+        "physical",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "108",
+      "name": "墨子",
+      "lanes": [
+        "MID",
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "109",
+      "name": "妲己",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "burst",
+        "control",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "110",
+      "name": "嬴政",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "111",
+      "name": "孙尚香",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "burst",
+        "marksman",
+        "mobility",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "112",
+      "name": "鲁班七号",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "113",
+      "name": "庄周",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "frontline",
+        "peel",
+        "support",
+        "sustain",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "114",
+      "name": "刘禅",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "115",
+      "name": "高渐离",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "116",
+      "name": "阿轲",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "117",
+      "name": "钟无艳",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "118",
+      "name": "孙膑",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "peel",
+        "support",
+        "sustain"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "119",
+      "name": "扁鹊",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "120",
+      "name": "白起",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "121",
+      "name": "芈月",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "123",
+      "name": "吕布",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "physical",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "124",
+      "name": "周瑜",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "125",
+      "name": "元歌",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "126",
+      "name": "夏侯惇",
+      "lanes": [
+        "CLASH",
+        "ROAM",
+        "JUNGLE"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "sustain",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "127",
+      "name": "甄姬",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "128",
+      "name": "曹操",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "129",
+      "name": "典韦",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "130",
+      "name": "宫本武藏",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "131",
+      "name": "李白",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "burst",
+        "mobility",
+        "physical"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "132",
+      "name": "马可波罗",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "mobility",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "133",
+      "name": "狄仁杰",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "control",
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "134",
+      "name": "达摩",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "135",
+      "name": "项羽",
+      "lanes": [
+        "CLASH",
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "peel",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "136",
+      "name": "武则天",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "137",
+      "name": "司马懿",
+      "lanes": [
+        "JUNGLE",
+        "MID"
+      ],
+      "tags": [
+        "assassin",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "138",
+      "name": "王维",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "139",
+      "name": "老夫子",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "140",
+      "name": "关羽",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "141",
+      "name": "貂蝉",
+      "lanes": [
+        "MID",
+        "CLASH"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "142",
+      "name": "安琪拉",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "144",
+      "name": "程咬金",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "146",
+      "name": "露娜",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "148",
+      "name": "姜子牙",
+      "lanes": [
+        "MID",
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "149",
+      "name": "刘邦",
+      "lanes": [
+        "CLASH",
+        "ROAM"
+      ],
+      "tags": [
+        "frontline",
+        "mage",
+        "magic",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "150",
+      "name": "韩信",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "control",
+        "mobility",
+        "physical"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "151",
+      "name": "孙权",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "152",
+      "name": "王昭君",
+      "lanes": [
+        "MID",
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic",
+        "peel"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "153",
+      "name": "兰陵王",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "burst",
+        "mobility",
+        "physical"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "154",
+      "name": "花木兰",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "155",
+      "name": "艾琳",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "magic",
+        "marksman",
+        "mobility",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "156",
+      "name": "张良",
+      "lanes": [
+        "MID",
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic",
+        "peel"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "157",
+      "name": "不知火舞",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "assassin",
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "159",
+      "name": "朵莉亚",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "162",
+      "name": "娜可露露",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "burst",
+        "mobility",
+        "physical"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "163",
+      "name": "橘右京",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "166",
+      "name": "亚瑟",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "physical",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "167",
+      "name": "孙悟空",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "168",
+      "name": "牛魔",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "peel",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "169",
+      "name": "后羿",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "control",
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "170",
+      "name": "刘备",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "171",
+      "name": "张飞",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "peel",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "172",
+      "name": "蚩奼",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "173",
+      "name": "李元芳",
+      "lanes": [
+        "FARM",
+        "JUNGLE"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "174",
+      "name": "虞姬",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "175",
+      "name": "钟馗",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "frontline",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "176",
+      "name": "杨玉环",
+      "lanes": [
+        "MID",
+        "ROAM",
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "177",
+      "name": "苍",
+      "lanes": [
+        "FARM",
+        "JUNGLE"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "178",
+      "name": "杨戬",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "179",
+      "name": "女娲",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "180",
+      "name": "哪吒",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "182",
+      "name": "干将莫邪",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "183",
+      "name": "雅典娜",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "184",
+      "name": "蔡文姬",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic",
+        "peel",
+        "support",
+        "sustain"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "186",
+      "name": "太乙真人",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "peel",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "187",
+      "name": "东皇太一",
+      "lanes": [
+        "ROAM",
+        "CLASH"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "mage",
+        "magic",
+        "peel",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "188",
+      "name": "大禹",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "frontline",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "189",
+      "name": "鬼谷子",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "mage",
+        "magic",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "190",
+      "name": "诸葛亮",
+      "lanes": [
+        "MID",
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "191",
+      "name": "大乔",
+      "lanes": [
+        "ROAM",
+        "MID"
+      ],
+      "tags": [
+        "control",
+        "mage",
+        "magic",
+        "peel",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "192",
+      "name": "黄忠",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "193",
+      "name": "铠",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "194",
+      "name": "苏烈",
+      "lanes": [
+        "ROAM",
+        "CLASH"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "195",
+      "name": "百里玄策",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "196",
+      "name": "百里守约",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "assassin",
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "197",
+      "name": "弈星",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "198",
+      "name": "梦奇",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "frontline",
+        "mage",
+        "magic",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "199",
+      "name": "公孙离",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "mobility",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "312",
+      "name": "沈梦溪",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "501",
+      "name": "明世隐",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "502",
+      "name": "裴擒虎",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "503",
+      "name": "狂铁",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "504",
+      "name": "米莱狄",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "505",
+      "name": "瑶",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "506",
+      "name": "云中君",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "507",
+      "name": "李信",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "508",
+      "name": "伽罗",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "509",
+      "name": "盾山",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "control",
+        "frontline",
+        "peel",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "510",
+      "name": "孙策",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "control",
+        "engage",
+        "frontline",
+        "physical",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "511",
+      "name": "猪八戒",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "513",
+      "name": "上官婉儿",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "514",
+      "name": "亚连",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "515",
+      "name": "嫦娥",
+      "lanes": [
+        "MID",
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "517",
+      "name": "大司命",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "518",
+      "name": "马超",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "519",
+      "name": "敖隐",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "521",
+      "name": "海月",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "522",
+      "name": "曜",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "523",
+      "name": "西施",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "524",
+      "name": "蒙犽",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "525",
+      "name": "鲁班大师",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "frontline",
+        "support",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "527",
+      "name": "蒙恬",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "528",
+      "name": "澜",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "burst",
+        "mobility",
+        "physical",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "529",
+      "name": "盘古",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "531",
+      "name": "镜",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "533",
+      "name": "阿古朵",
+      "lanes": [
+        "JUNGLE",
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "534",
+      "name": "桑启",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "536",
+      "name": "夏洛特",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "537",
+      "name": "司空震",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "538",
+      "name": "云缨",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "540",
+      "name": "金蝉",
+      "lanes": [
+        "MID",
+        "ROAM"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "542",
+      "name": "暃",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "assassin"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "544",
+      "name": "赵怀真",
+      "lanes": [
+        "JUNGLE",
+        "CLASH",
+        "ROAM"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "545",
+      "name": "莱西奥",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "547",
+      "name": "卢雅那",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "548",
+      "name": "戈娅",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "549",
+      "name": "心魔六耳",
+      "lanes": [
+        "JUNGLE",
+        "CLASH"
+      ],
+      "tags": [
+        "assassin",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "550",
+      "name": "空空儿",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "558",
+      "name": "影",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "563",
+      "name": "海诺",
+      "lanes": [
+        "MID",
+        "CLASH"
+      ],
+      "tags": [
+        "mage",
+        "magic",
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "564",
+      "name": "姬小满",
+      "lanes": [
+        "CLASH"
+      ],
+      "tags": [
+        "warrior"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "577",
+      "name": "少司缘",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "581",
+      "name": "元流之子(坦克)",
+      "lanes": [
+        "CLASH",
+        "JUNGLE"
+      ],
+      "tags": [
+        "frontline",
+        "tank"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "582",
+      "name": "元流之子(法师)",
+      "lanes": [
+        "MID"
+      ],
+      "tags": [
+        "mage",
+        "magic"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "583",
+      "name": "元流之子(刺客)",
+      "lanes": [
+        "JUNGLE"
+      ],
+      "tags": [
+        "support"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "584",
+      "name": "元流之子(射手)",
+      "lanes": [
+        "FARM"
+      ],
+      "tags": [
+        "marksman",
+        "physical",
+        "ranged"
+      ],
+      "tier": 0.5
+    },
+    {
+      "id": "585",
+      "name": "元流之子(辅助)",
+      "lanes": [
+        "ROAM"
+      ],
+      "tags": [
+        "support"
+      ],
+      "tier": 0.5
+    }
+  ],
+  "counters": [
+    {
+      "from": "131",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "利用不可选中窗口规避关键控制，给缺乏位移的后羿造成切入压力。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "153",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "隐身接近与爆发会威胁缺乏位移的鲁班，需视野和保护应对。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "131",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "灵活切入及不可选中窗口会威胁走位失误的鲁班。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "153",
+      "to": "111",
+      "strength": 0.55,
+      "reason": "隐身接近可压缩孙尚香的安全输出空间，仍取决于视野和技能处理。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/111.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "153",
+      "to": "133",
+      "strength": 0.55,
+      "reason": "隐身切入对没有位移的狄仁杰形成爆发威胁。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/133.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "187",
+      "to": "146",
+      "strength": 0.55,
+      "reason": "近身压制命中后限制连续位移，需队友及时集火。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/187.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "133",
+      "to": "146",
+      "strength": 0.55,
+      "reason": "解除自身负面效果可处理露娜标记，控制命中后便于集火。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/133.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "173",
+      "to": "153",
+      "strength": 0.55,
+      "reason": "被动的周期性探测有助提前发现附近隐身切入，不能代替持续视野。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/173.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "168",
+      "to": "108",
+      "strength": 0.55,
+      "reason": "击飞可打断墨子引导并为队友脱离控制创造机会。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/168.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "171",
+      "to": "108",
+      "strength": 0.55,
+      "reason": "击退和大招控制可干扰墨子的引导控制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/171.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "113",
+      "to": "171",
+      "strength": 0.55,
+      "reason": "大招解控和免控窗口可缓解张飞对队友的控制影响。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/171.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "111",
+      "to": "187",
+      "strength": 0.55,
+      "reason": "利用射程与翻滚保持距离，可减少被近身压制的机会。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/111.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    }
+  ],
+  "synergies": [
+    {
+      "from": "168",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "防御增益与控制为后羿持续普攻提供保护窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "168",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "前排控制与防御增益有助保护鲁班完成持续输出。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "168",
+      "to": "133",
+      "strength": 0.55,
+      "reason": "先手控制与保护有助狄仁杰命中关键技能并走位输出。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/133.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "168",
+      "to": "132",
+      "strength": 0.55,
+      "reason": "控制和前排承伤有助马可波罗选择进场与输出时机。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/168.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "171",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "护盾与击退为缺乏位移的后羿提供保护。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/171.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "171",
+      "to": "192",
+      "strength": 0.55,
+      "reason": "护盾和击退可以保护架起状态的黄忠。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/171.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "156",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "稳定控制窗口有助后羿持续输出，但需要控制者安全站位。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/156.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "156",
+      "to": "120",
+      "strength": 0.55,
+      "reason": "控制衔接为队友创造集中输出窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/156.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "187",
+      "to": "132",
+      "strength": 0.55,
+      "reason": "近身压制有助保护马可波罗并配合后续集火。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/187.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "187",
+      "to": "116",
+      "strength": 0.55,
+      "reason": "压制窗口有助阿轲调整背击位置与集火。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/187.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "113",
+      "to": "111",
+      "strength": 0.55,
+      "reason": "解控窗口有助孙尚香维持翻滚和输出空间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/111.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "113",
+      "to": "192",
+      "strength": 0.55,
+      "reason": "免控和保护窗口可帮助黄忠维持架起输出。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/113.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "120",
+      "to": "173",
+      "strength": 0.55,
+      "reason": "聚集与控制窗口有助李元芳命中范围伤害。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/173.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "108",
+      "to": "173",
+      "strength": 0.55,
+      "reason": "远程消耗及控制可补足李元芳的部分输出环境需求。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/173.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-10-31"
+    }
+  ],
+  "disabledHeroIds": []
+}
