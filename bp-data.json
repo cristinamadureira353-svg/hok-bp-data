@@ -1,21 +1,20 @@
 {
   "schemaVersion": 1,
   "minAppVersion": 1,
-  "version": "2026.10.31.1",
-  "gameVersion": "2026-10-29-机制基础版（强度待实战复核）",
-  "source": "英雄标识/名称/推荐分路来自腾讯官网公开英雄列表；战术标签为本项目独立机制标注，非胜率统计。",
-  "generatedAt": "2026-10-31",
-  "quality": "mechanics-baseline-not-ranked-validated",
+  "version": "2026.11.05.1",
+  "gameVersion": "国服机制资料",
+  "source": "英雄目录取自腾讯官网。战术标签与配对理由由本项目根据公开技能独立整理。",
+  "generatedAt": "2026-11-05",
+  "quality": "qualitative-mechanics",
   "limitations": [
-    "tier全部为0.5中性值，不表示版本强度排名",
-    "未包含胜率、禁用率或对位胜率",
-    "机制关系仅覆盖部分英雄，0.55为人工规则权重而非概率",
-    "需要两台客户真机及实战BP复核"
+    "英雄基础权重统一为0.5。",
+    "配对权重0.55由项目设定，需结合技能命中、时机和站位。",
+    "竞技强度待实战复核。"
   ],
   "sources": [
     {
       "url": "https://pvp.qq.com/web201605/js/herolist.json",
-      "retrievedAt": "2026-10-31",
+      "retrievedAt": "2026-11-05",
       "fields": [
         "ename",
         "cname",
@@ -39,7 +38,9 @@
         "frontline",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/105.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "106",
@@ -53,7 +54,9 @@
         "mage",
         "magic"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/106.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "107",
@@ -68,7 +71,9 @@
         "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/107.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "108",
@@ -78,11 +83,16 @@
         "ROAM"
       ],
       "tags": [
+        "control",
         "mage",
         "magic",
+        "peel",
+        "ranged",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/108.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "109",
@@ -96,7 +106,9 @@
         "mage",
         "magic"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/109.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "110",
@@ -106,9 +118,12 @@
       ],
       "tags": [
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/110.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "111",
@@ -123,7 +138,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/111.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "112",
@@ -136,7 +153,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/112.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "113",
@@ -151,7 +170,9 @@
         "sustain",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/113.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "114",
@@ -166,7 +187,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/114.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "115",
@@ -218,7 +241,9 @@
         "support",
         "sustain"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/118.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "119",
@@ -245,7 +270,9 @@
         "frontline",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/120.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "121",
@@ -274,7 +301,9 @@
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/123.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "124",
@@ -288,7 +317,9 @@
         "magic",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/124.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "125",
@@ -316,7 +347,9 @@
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/126.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "127",
@@ -329,7 +362,9 @@
         "mage",
         "magic"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/127.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "128",
@@ -350,9 +385,13 @@
         "JUNGLE"
       ],
       "tags": [
+        "physical",
+        "sustain",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/129.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "130",
@@ -362,9 +401,14 @@
       ],
       "tags": [
         "assassin",
+        "engage",
+        "mobility",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/130.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "131",
@@ -378,7 +422,9 @@
         "mobility",
         "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/131.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "132",
@@ -392,7 +438,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/132.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "133",
@@ -406,7 +454,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/133.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "134",
@@ -435,7 +485,9 @@
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/135.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "136",
@@ -458,10 +510,14 @@
       ],
       "tags": [
         "assassin",
+        "burst",
         "mage",
-        "magic"
+        "magic",
+        "mobility"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/137.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "138",
@@ -482,9 +538,14 @@
         "CLASH"
       ],
       "tags": [
+        "control",
+        "engage",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/139.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "140",
@@ -519,10 +580,15 @@
         "MID"
       ],
       "tags": [
+        "burst",
+        "control",
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/142.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "144",
@@ -532,9 +598,13 @@
       ],
       "tags": [
         "frontline",
+        "physical",
+        "sustain",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/144.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "146",
@@ -573,9 +643,12 @@
         "frontline",
         "mage",
         "magic",
+        "peel",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/149.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "150",
@@ -589,7 +662,9 @@
         "mobility",
         "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/150.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "151",
@@ -617,7 +692,9 @@
         "magic",
         "peel"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/152.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "153",
@@ -631,7 +708,9 @@
         "mobility",
         "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/153.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "154",
@@ -656,7 +735,9 @@
         "mobility",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/155.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "156",
@@ -671,7 +752,9 @@
         "magic",
         "peel"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/156.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "157",
@@ -681,10 +764,15 @@
       ],
       "tags": [
         "assassin",
+        "burst",
+        "control",
         "mage",
-        "magic"
+        "magic",
+        "mobility"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/157.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "159",
@@ -695,9 +783,13 @@
       "tags": [
         "mage",
         "magic",
-        "support"
+        "peel",
+        "support",
+        "sustain"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/159.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "162",
@@ -711,7 +803,9 @@
         "mobility",
         "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/162.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "163",
@@ -740,7 +834,9 @@
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/166.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "167",
@@ -767,7 +863,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/168.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "169",
@@ -781,7 +879,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/169.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "170",
@@ -790,9 +890,14 @@
         "JUNGLE"
       ],
       "tags": [
+        "control",
+        "physical",
+        "sustain",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/170.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "171",
@@ -807,7 +912,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/171.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "172",
@@ -843,10 +950,13 @@
       ],
       "tags": [
         "marksman",
+        "peel",
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/174.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "175",
@@ -855,11 +965,16 @@
         "ROAM"
       ],
       "tags": [
+        "control",
+        "engage",
         "frontline",
+        "magic",
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/175.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "176",
@@ -897,9 +1012,15 @@
         "JUNGLE"
       ],
       "tags": [
+        "control",
+        "mobility",
+        "physical",
+        "sustain",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/178.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "179",
@@ -908,10 +1029,14 @@
         "MID"
       ],
       "tags": [
+        "control",
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/179.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "180",
@@ -921,11 +1046,16 @@
         "JUNGLE"
       ],
       "tags": [
+        "control",
+        "engage",
         "frontline",
+        "physical",
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/180.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "182",
@@ -934,10 +1064,14 @@
         "MID"
       ],
       "tags": [
+        "burst",
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/182.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "183",
@@ -965,7 +1099,9 @@
         "support",
         "sustain"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/184.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "186",
@@ -980,7 +1116,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/186.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "187",
@@ -997,7 +1135,9 @@
         "peel",
         "support"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/187.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "188",
@@ -1025,7 +1165,9 @@
         "magic",
         "support"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/189.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "190",
@@ -1054,7 +1196,9 @@
         "peel",
         "support"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/191.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "192",
@@ -1077,11 +1221,16 @@
         "CLASH"
       ],
       "tags": [
+        "burst",
         "frontline",
+        "physical",
+        "sustain",
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/193.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "194",
@@ -1097,7 +1246,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/194.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "195",
@@ -1106,9 +1257,14 @@
         "JUNGLE"
       ],
       "tags": [
-        "assassin"
+        "assassin",
+        "control",
+        "mobility",
+        "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/195.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "196",
@@ -1131,10 +1287,14 @@
         "MID"
       ],
       "tags": [
+        "control",
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/197.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "198",
@@ -1147,9 +1307,12 @@
         "frontline",
         "mage",
         "magic",
+        "sustain",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/198.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "199",
@@ -1163,7 +1326,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/199.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "312",
@@ -1172,10 +1337,14 @@
         "MID"
       ],
       "tags": [
+        "burst",
         "mage",
-        "magic"
+        "magic",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/312.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "501",
@@ -1195,9 +1364,14 @@
         "JUNGLE"
       ],
       "tags": [
-        "assassin"
+        "assassin",
+        "mobility",
+        "physical",
+        "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/502.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "503",
@@ -1206,11 +1380,16 @@
         "CLASH"
       ],
       "tags": [
+        "control",
         "frontline",
+        "physical",
+        "sustain",
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/503.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "504",
@@ -1231,11 +1410,15 @@
         "ROAM"
       ],
       "tags": [
+        "control",
         "mage",
         "magic",
+        "peel",
         "support"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/505.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "506",
@@ -1255,9 +1438,14 @@
         "CLASH"
       ],
       "tags": [
+        "physical",
+        "ranged",
+        "sustain",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/507.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "508",
@@ -1270,7 +1458,9 @@
         "physical",
         "ranged"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/508.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "509",
@@ -1285,7 +1475,9 @@
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/509.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "510",
@@ -1302,7 +1494,9 @@
         "tank",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/510.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "511",
@@ -1377,9 +1571,14 @@
         "JUNGLE"
       ],
       "tags": [
+        "mobility",
+        "physical",
+        "sustain",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/518.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "519",
@@ -1401,10 +1600,13 @@
         "MID"
       ],
       "tags": [
+        "control",
         "mage",
         "magic"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/521.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "522",
@@ -1415,9 +1617,14 @@
       ],
       "tags": [
         "assassin",
+        "burst",
+        "mobility",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/522.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "523",
@@ -1426,10 +1633,13 @@
         "MID"
       ],
       "tags": [
+        "control",
         "mage",
         "magic"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/523.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "524",
@@ -1451,11 +1661,16 @@
         "ROAM"
       ],
       "tags": [
+        "control",
+        "engage",
         "frontline",
+        "peel",
         "support",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/525.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "527",
@@ -1464,10 +1679,14 @@
         "CLASH"
       ],
       "tags": [
+        "control",
         "frontline",
+        "physical",
         "tank"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/527.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "528",
@@ -1482,7 +1701,9 @@
         "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/528.shtml",
+      "mechanicReviewedAt": "2026-10-31"
     },
     {
       "id": "529",
@@ -1492,9 +1713,14 @@
         "CLASH"
       ],
       "tags": [
+        "control",
+        "engage",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/529.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "531",
@@ -1503,9 +1729,14 @@
         "JUNGLE"
       ],
       "tags": [
-        "assassin"
+        "assassin",
+        "burst",
+        "mobility",
+        "physical"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/531.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "533",
@@ -1567,9 +1798,15 @@
       ],
       "tags": [
         "assassin",
+        "control",
+        "engage",
+        "mobility",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/538.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "540",
@@ -1579,10 +1816,14 @@
         "ROAM"
       ],
       "tags": [
+        "control",
         "mage",
-        "magic"
+        "magic",
+        "peel"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/540.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "542",
@@ -1604,9 +1845,14 @@
         "ROAM"
       ],
       "tags": [
+        "control",
+        "frontline",
+        "physical",
         "warrior"
       ],
-      "tier": 0.5
+      "tier": 0.5,
+      "mechanicSource": "https://pvp.qq.com/web201605/herodetail/544.shtml",
+      "mechanicReviewedAt": "2026-11-05"
     },
     {
       "id": "545",
@@ -1912,6 +2158,306 @@
       ],
       "evidenceType": "independently-authored-mechanism-inference",
       "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "508",
+      "to": "170",
+      "strength": 0.55,
+      "reason": "保持射程时优先磨掉刘备开大后的护盾，避免进入他的贴脸输出距离。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/508.shtml",
+        "https://pvp.qq.com/web201605/herodetail/170.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "508",
+      "to": "503",
+      "strength": 0.55,
+      "reason": "长弓配合破盾机制消耗狂铁开大形成的护盾，留意其冲锋距离。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/508.shtml",
+        "https://pvp.qq.com/web201605/herodetail/503.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "508",
+      "to": "171",
+      "strength": 0.55,
+      "reason": "在有输出空间时优先消耗张飞或其队友的护盾，留意张飞反手开团。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/508.shtml",
+        "https://pvp.qq.com/web201605/herodetail/171.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "508",
+      "to": "110",
+      "strength": 0.55,
+      "reason": "对嬴政二技能护盾有额外破盾效率，仍需规避远程飞剑。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/508.shtml",
+        "https://pvp.qq.com/web201605/herodetail/110.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "130",
+      "to": "184",
+      "strength": 0.55,
+      "reason": "大招锁定蔡文姬正在保护的目标，延后其吃到的回复，留出集火窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/130.shtml",
+        "https://pvp.qq.com/web201605/herodetail/184.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "130",
+      "to": "144",
+      "strength": 0.55,
+      "reason": "大招窗口可延后程咬金的回复，趁窗口内集火才有价值。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/130.shtml",
+        "https://pvp.qq.com/web201605/herodetail/144.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "130",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "剑气可挡路径内的飞行物，留给后羿远程先手时能减少被开风险。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/130.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "174",
+      "to": "153",
+      "strength": 0.55,
+      "reason": "将物理免疫留给兰陵王进场连招，减少其物理爆发窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/174.shtml",
+        "https://pvp.qq.com/web201605/herodetail/153.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "174",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "物理免疫期间可避开鲁班七号的主要普攻伤害，适合规避一轮扫射。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/174.shtml",
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "174",
+      "to": "195",
+      "strength": 0.55,
+      "reason": "预留物理免疫应对玄策贴身后的物理输出，仍需规避钩锁控制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/174.shtml",
+        "https://pvp.qq.com/web201605/herodetail/195.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "529",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "缴械命中时能暂停后羿的持续普攻，配合队友处理其输出位置。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/529.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "529",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "缴械命中后能压缩鲁班七号靠普攻扫射输出的时间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/529.shtml",
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "529",
+      "to": "170",
+      "strength": 0.55,
+      "reason": "缴械打断刘备贴脸普攻的输出节奏，尽量卡在其靠近后命中。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/529.shtml",
+        "https://pvp.qq.com/web201605/herodetail/170.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "529",
+      "to": "139",
+      "strength": 0.55,
+      "reason": "命中缴械能暂缓老夫子靠连续普攻维持的近身压制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/529.shtml",
+        "https://pvp.qq.com/web201605/herodetail/139.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "540",
+      "to": "531",
+      "strength": 0.55,
+      "reason": "紧箍命中后限制镜离开范围，给队友留出跟进时间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/540.shtml",
+        "https://pvp.qq.com/web201605/herodetail/531.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "540",
+      "to": "146",
+      "strength": 0.55,
+      "reason": "紧箍命中可限制露娜靠标记连续穿行的范围，适合留给她切入时。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/540.shtml",
+        "https://pvp.qq.com/web201605/herodetail/146.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "540",
+      "to": "157",
+      "strength": 0.55,
+      "reason": "紧箍先命中能压缩不知火舞的切入与撤出空间，注意前排挡住弹道。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/540.shtml",
+        "https://pvp.qq.com/web201605/herodetail/157.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "540",
+      "to": "518",
+      "strength": 0.55,
+      "reason": "紧箍命中后限制马超拉扯的范围，可衔接队友伤害。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/540.shtml",
+        "https://pvp.qq.com/web201605/herodetail/518.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "139",
+      "to": "518",
+      "strength": 0.55,
+      "reason": "冲锋命中后把马超限制在明灯附近，压缩他靠移速反复拉扯的空间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/139.shtml",
+        "https://pvp.qq.com/web201605/herodetail/518.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "187",
+      "to": "531",
+      "strength": 0.55,
+      "reason": "压制留给进场的镜，队友有跟进时更容易利用控制窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/187.shtml",
+        "https://pvp.qq.com/web201605/herodetail/531.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "156",
+      "to": "531",
+      "strength": 0.55,
+      "reason": "镜进场后可用压制留住目标，留意自身站位与队友的集火距离。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/156.shtml",
+        "https://pvp.qq.com/web201605/herodetail/531.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "113",
+      "to": "189",
+      "strength": 0.55,
+      "reason": "预留解控应对鬼谷子拉人窗口，帮助被拉到一起的队友散开。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/113.shtml",
+        "https://pvp.qq.com/web201605/herodetail/189.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "113",
+      "to": "523",
+      "strength": 0.55,
+      "reason": "可在西施牵引威胁出现时用团队解控保护被集火队友。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/113.shtml",
+        "https://pvp.qq.com/web201605/herodetail/523.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "113",
+      "to": "108",
+      "strength": 0.55,
+      "reason": "留解控给墨子远程控制或大招衔接，帮队友争取脱离时间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/113.shtml",
+        "https://pvp.qq.com/web201605/herodetail/108.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "509",
+      "to": "110",
+      "strength": 0.55,
+      "reason": "盾朝向飞剑来向时能挡下一部分直线消耗，注意盾的耐久。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/509.shtml",
+        "https://pvp.qq.com/web201605/herodetail/110.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
     }
   ],
   "synergies": [
@@ -2068,6 +2614,306 @@
       ],
       "evidenceType": "independently-authored-mechanism-inference",
       "reviewedAt": "2026-10-31"
+    },
+    {
+      "from": "525",
+      "to": "112",
+      "strength": 0.55,
+      "reason": "鲁班七号可主动点链回到鲁班大师身边，保护扫射后的撤退路线。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/525.shtml",
+        "https://pvp.qq.com/web201605/herodetail/112.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "525",
+      "to": "508",
+      "strength": 0.55,
+      "reason": "伽罗长弓输出时若被逼近，可在链路有效时主动交互回到大师位置。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/525.shtml",
+        "https://pvp.qq.com/web201605/herodetail/508.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "525",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "后羿可以利用链路补足撤退位移，大师聚人后也可接远程控制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/525.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "525",
+      "to": "192",
+      "strength": 0.55,
+      "reason": "黄忠受威胁时可主动点链撤回，布置炮位前先约定链路落点。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/525.shtml",
+        "https://pvp.qq.com/web201605/herodetail/192.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "525",
+      "to": "182",
+      "strength": 0.55,
+      "reason": "鲁班大师拉回目标后，干将莫邪可朝落点补剑；链路也可用于脱离近身。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/525.shtml",
+        "https://pvp.qq.com/web201605/herodetail/182.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "159",
+      "to": "510",
+      "strength": 0.55,
+      "reason": "孙策交完开团技能后，可视实际冷却和契约刷新一次，给下一次进场留窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/159.shtml",
+        "https://pvp.qq.com/web201605/herodetail/510.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "159",
+      "to": "120",
+      "strength": 0.55,
+      "reason": "白起交出嘲讽后若其是当前最长冷却，朵莉亚可让他更早接第二轮控制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/159.shtml",
+        "https://pvp.qq.com/web201605/herodetail/120.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "159",
+      "to": "123",
+      "strength": 0.55,
+      "reason": "吕布先交跳大且大招是当前最长冷却时，朵莉亚可补出下一次跳大机会。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/159.shtml",
+        "https://pvp.qq.com/web201605/herodetail/123.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "159",
+      "to": "197",
+      "strength": 0.55,
+      "reason": "弈星交过棋盘后可视冷却与距离刷新，适合分两轮组织留人。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/159.shtml",
+        "https://pvp.qq.com/web201605/herodetail/197.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "159",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "后羿先交远程控制且该技能冷却最长时，可借刷新再次找先手机会。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/159.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "189",
+      "to": "152",
+      "strength": 0.55,
+      "reason": "鬼谷子聚人后王昭君在落点放冰冻，可延长多人受控时间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/189.shtml",
+        "https://pvp.qq.com/web201605/herodetail/152.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "189",
+      "to": "142",
+      "strength": 0.55,
+      "reason": "鬼谷子聚人后安琪拉朝落点补眩晕和直线伤害，减少技能落空。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/189.shtml",
+        "https://pvp.qq.com/web201605/herodetail/142.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "189",
+      "to": "538",
+      "strength": 0.55,
+      "reason": "鬼谷子聚人提供云缨控制和近身枪技的命中窗口。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/189.shtml",
+        "https://pvp.qq.com/web201605/herodetail/538.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "189",
+      "to": "510",
+      "strength": 0.55,
+      "reason": "鬼谷子聚人后孙策从侧面接控制，队友能到场时更容易持续留人。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/189.shtml",
+        "https://pvp.qq.com/web201605/herodetail/510.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "175",
+      "to": "142",
+      "strength": 0.55,
+      "reason": "钟馗拉人命中后，安琪拉可提前对准身前落点接眩晕和爆发。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/175.shtml",
+        "https://pvp.qq.com/web201605/herodetail/142.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "175",
+      "to": "182",
+      "strength": 0.55,
+      "reason": "钟馗将人拉近后，干将莫邪可瞄准落点补剑，注意飞剑交汇距离。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/175.shtml",
+        "https://pvp.qq.com/web201605/herodetail/182.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "139",
+      "to": "152",
+      "strength": 0.55,
+      "reason": "老夫子束缚后王昭君可把冰冻布在目标受限范围内。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/139.shtml",
+        "https://pvp.qq.com/web201605/herodetail/152.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "139",
+      "to": "182",
+      "strength": 0.55,
+      "reason": "老夫子命中束缚后，干将莫邪更容易预测飞剑落点。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/139.shtml",
+        "https://pvp.qq.com/web201605/herodetail/182.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "523",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "西施把目标拉向后羿能跟进的位置，后羿可衔接远程控制或持续普攻。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/523.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "523",
+      "to": "510",
+      "strength": 0.55,
+      "reason": "西施牵引命中后，孙策可沿目标位移方向接进场控制。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/523.shtml",
+        "https://pvp.qq.com/web201605/herodetail/510.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "108",
+      "to": "508",
+      "strength": 0.55,
+      "reason": "墨子远程控制帮伽罗拉开长弓输出距离，近身时也能留控保护。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/108.shtml",
+        "https://pvp.qq.com/web201605/herodetail/508.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "108",
+      "to": "111",
+      "strength": 0.55,
+      "reason": "墨子先打远程控制，孙尚香可接翻滚强化射击后及时拉开。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/108.shtml",
+        "https://pvp.qq.com/web201605/herodetail/111.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "108",
+      "to": "169",
+      "strength": 0.55,
+      "reason": "墨子先手留人后羿可接箭，留住突进也能给后羿争取普攻时间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/108.shtml",
+        "https://pvp.qq.com/web201605/herodetail/169.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "171",
+      "to": "508",
+      "strength": 0.55,
+      "reason": "张飞给盾并推开突进时，伽罗能保持长弓的输出距离。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/171.shtml",
+        "https://pvp.qq.com/web201605/herodetail/508.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
+    },
+    {
+      "from": "168",
+      "to": "508",
+      "strength": 0.55,
+      "reason": "牛魔在前排击飞或阻挡突进，为伽罗保留安全的长弓输出空间。",
+      "sourceUrls": [
+        "https://pvp.qq.com/web201605/herodetail/168.shtml",
+        "https://pvp.qq.com/web201605/herodetail/508.shtml"
+      ],
+      "evidenceType": "independently-authored-mechanism-inference",
+      "reviewedAt": "2026-11-05"
     }
   ],
   "disabledHeroIds": []
